@@ -1,32 +1,21 @@
-# 🚀 Custom AMI Creation for Auto Deployment
+# 🚀 AWS AMI Auto Deployment Project
 
 ## 📌 Project Overview
-Automated EC2 server deployment using custom Amazon Machine Images (AMI) on AWS.
-This project reduces manual configuration time by automatically launching 
-pre-configured instances from a custom AMI.
+This project demonstrates creating a custom AMI for automatic EC2 deployment.
 
-## 🛠️ AWS Services Used
-- Amazon EC2
-- Amazon Machine Image (AMI)
-- Security Groups
-- EBS (Elastic Block Store)
+## ⚙️ Steps Performed
+1. Launch EC2 instance
+2. Install Apache Web Server
+3. Configure sample website
+4. Create custom AMI
+5. Launch new EC2 using AMI
 
-## 📋 Steps Followed
-1. Launched EC2 instance on AWS (Ubuntu/Amazon Linux)
-2. Configured Apache Web Server on the instance
-3. Created a custom AMI from the configured instance
-4. Launched new EC2 instances from the custom AMI
-5. Verified automatic deployment — no manual setup needed
+## 🎯 Result
+- Reduced manual configuration
+- Faster deployment
+- Consistent server setup
 
-## 📈 Result
-- Reduced manual configuration time by ~40%
-- Consistent and repeatable server deployments
-- Faster instance launch using pre-configured AMI
-
-## 🏗️ Architecture
-EC2 Instance → Configure Web Server → Create AMI → Launch New Instances from AMI
-
-## 👨‍💻 Author
-**Gopinath T** — AWS Certified Solutions Architect
-- GitHub: https://github.com/gopinath0703
-- Email: gopinathdhanasampath23@gmail.com
+## 🛠️ Tools Used
+- AWS EC2
+- AMI
+- Linux
